@@ -145,18 +145,43 @@
 - 收购新闻关注估值超过1亿美元的交易
 - 如果某些网站限制访问，可搜索相关新闻的二次报道
 
-### 开源项目源：
-- https://github.com/trending (查看本周趋势)
-- https://github.com/trending/typescript?since=weekly
-- https://github.com/trending/python?since=weekly
-- https://github.com/trending/rust?since=weekly
-- https://github.com/trending/javascript?since=weekly
-- https://www.reddit.com/r/ClaudeCode/ (Claude Code相关项目)
-- https://www.reddit.com/r/windsurf/ (Windsurf相关项目)
-- https://www.reddit.com/r/Codeium/ (Codeium相关项目)
-- https://www.reddit.com/r/DeepSeek/ (DeepSeek相关项目)
-- 筛选条件：与AI、机器学习、Agent、LLM、编程助手相关的项目
-- 重点关注：Star数增长>500的项目
+### 开源项目源及筛选指导：
+
+**必须访问的GitHub trending页面：**
+- https://github.com/trending (主要trending，查看总体趋势)
+- https://github.com/trending/typescript?since=weekly (TypeScript周trending)
+- https://github.com/trending/python?since=weekly (Python周trending)
+- https://github.com/trending/rust?since=weekly (Rust周trending)
+- https://github.com/trending/javascript?since=weekly (JavaScript周trending)
+- https://github.com/trending/go?since=weekly (Go周trending)
+
+**AI项目筛选关键词（必须包含其一）：**
+- 核心关键词：AI, ML, LLM, GPT, Claude, Agent, Assistant
+- 技术关键词：machine learning, deep learning, neural network, transformer
+- 应用关键词：chatbot, coding assistant, RAG, vector database, embeddings
+- 工具关键词：AI tool, AI framework, AI SDK, AI API
+- 特定技术：langchain, llama, mistral, anthropic, openai
+
+**筛选标准（必须满足）：**
+1. 项目描述或README明确包含AI相关功能
+2. 本周Star数增长>100（优先选择增长>500的项目）
+3. 项目活跃度：最近7天内有提交记录
+4. 避重复：同一作者的相似项目只选择一个
+5. 实用性：有具体应用场景，避免纯学术demo
+
+**必须收集的项目信息：**
+- 项目完整GitHub链接
+- 当前总Star数和本周增长数
+- 项目主要功能和技术特色
+- 编程语言和依赖
+- 许可证类型
+- 最近更新时间
+
+**补充信息源：**
+- https://www.reddit.com/r/MachineLearning/ (ML项目讨论)
+- https://www.reddit.com/r/ClaudeCode/ (Claude相关项目)
+- https://www.reddit.com/r/LocalLLaMA/ (本地LLM项目)
+- https://news.ycombinator.com/ (搜索"Show HN" AI项目)
 
 ### 深度阅读源：
 - https://arxiv.org/list/cs.AI/recent (最新AI论文)
@@ -233,18 +258,45 @@
 - 检查HuggingFace热门模型页面
 - 搜索"model release"关键词在tech媒体
 
-## 深挖指令B：GitHub热门AI项目筛选
-请访问GitHub Trending页面，筛选出本周星数增长最快的AI相关项目：
-筛选条件：
-- 项目描述包含：AI、ML、Agent、LLM、GPT、Claude等关键词
-- 本周新增星数 > 100
-- 活跃度高（最近有提交）
+## 深挖指令B：GitHub热门AI项目精确筛选
 
-对每个项目提供：
-- 项目功能简介
-- 技术栈和特色
-- 与现有工具的差异化
-- Star数和增长趋势
+**具体操作步骤：**
+1. 依次访问所有指定的GitHub trending页面（总体+4个主要语言）
+2. 逐个检查项目描述，使用AI关键词进行匹配
+3. 确认项目活跃度（查看最近提交时间）
+4. 记录Star数和估算周增长量
+5. 从所有符合条件的项目中选择最具代表性的10个
+
+**AI项目识别标准（严格执行）：**
+- 项目名称包含：ai, ml, llm, gpt, claude, agent, chat, assistant
+- 描述包含：artificial intelligence, machine learning, large language model, neural network
+- 功能包含：代码生成、文本生成、对话系统、RAG、向量搜索、模型推理
+- 标签包含：artificial-intelligence, machine-learning, llm, ai-assistant
+
+**筛选优先级（按重要性排序）：**
+1. 大厂开源项目（Google, Microsoft, Meta, OpenAI, Anthropic等）
+2. 本周Star增长>1000的项目
+3. 新兴AI工具和框架
+4. AI编程助手和开发工具
+5. 开源模型和推理框架
+6. RAG和向量数据库项目
+7. AI代理和多代理系统
+8. AI内容生成工具
+
+**必须提供的项目信息格式：**
+- 项目功能描述（1-2句话概括核心价值）
+- 技术特色和创新点
+- 与竞品的差异化优势
+- GitHub链接（格式：[用户名/项目名](完整URL)）
+- 当前Star数和估算的周增长
+- 主要编程语言
+- 适用场景和目标用户
+
+**质量控制要求：**
+- 确保每个项目都是真实存在的GitHub项目
+- 避免选择已停止维护的项目
+- 优先选择有详细README和文档的项目
+- 确保项目确实与AI相关，避免误选
 
 ## 深挖指令C：投融资和政策动态
 搜索本周AI领域的重要商业动态：
@@ -332,10 +384,25 @@
 [发布时间]，[详细描述，包括金额、背景、意义等]。[对行业影响的评述]。
 相关链接：[新闻链接]
 
-## 🛠️ 热门开源
+## 🚀 开源项目
 
-https://github.com/[用户名]/[项目名]
-[项目功能描述，技术特色，与同类项目的差异化优势]。本周新增Star数：[具体数字]。
+#### 1. [项目名称]：[一句话功能描述]
+[项目详细描述，包括核心功能、技术特色、应用场景等]。
+[用户名/项目名](GitHub完整链接)
+
+#### 2. [项目名称]：[一句话功能描述] 
+[项目详细描述，包括核心功能、技术特色、应用场景等]。
+[用户名/项目名](GitHub完整链接)
+
+[继续到第10个项目]
+
+**格式要求：**
+- 标题格式：#### [序号]. [项目名称]：[功能概述]
+- 描述在前：先写功能描述，再放链接
+- 链接格式：[用户名/项目名](完整GitHub URL)
+- 每个项目描述控制在2-3句话
+- 突出项目的独特价值和技术特色
+- 避免重复选择同一作者的多个项目
 
 ## 📚 深度阅读
 
@@ -366,11 +433,14 @@ https://github.com/[用户名]/[项目名]
 
 特殊处理指令：
 
-1. **如果信息不足**：
-   - 明确指出哪些类别信息不足
-   - 建议补充搜索的具体关键词
-   - 提供备选信息源
-   - 标注"信息收集不完整，建议人工补充"
+1. **开源项目筛选关键指导（基于实际经验）：**
+   - **必须全面访问**：依次访问所有指定的GitHub trending页面
+   - **AI项目识别**：使用严格的关键词匹配，确保项目真AI相关
+   - **数量控制**：如果AI项目不足10个，可适当降低标准但保证质量
+   - **质量优先**：优先选择大厂项目和高Star增长项目
+   - **去重处理**：避免选择同一开发者的相似项目
+   - **活跃度检查**：确认项目最近7天内有提交记录
+   - **明确标注**：如果项目较少，说明筛选标准和原因
 
 2. **如果有争议信息**：
    - 标注"待确认"并详细说明争议点
@@ -405,44 +475,77 @@ https://github.com/[用户名]/[项目名]
 3. **时效性检查**：验证链接当前可访问且内容匹配
 4. **交叉验证**：重要信息必须有多个独立源确认
 
-### GitHub项目链接要求：
-- 必须提供具体仓库链接，非简单描述
-- 格式：https://github.com/用户名/项目名
-- 附带Star数、语言、许可证信息
-- 验证项目活跃度（最近提交时间）
+### GitHub项目链接要求（重要）：
+- **严格格式**：[用户名/项目名](https://github.com/用户名/项目名)
+- **示例格式**：[microsoft/markitdown](https://github.com/microsoft/markitdown)
+- **禁止格式**：完整URL直接显示，如https://github.com/...
+- **必须验证**：每个链接在生成时都要确认可访问
+- **附加信息**：在描述中可提及Star数、主要语言、更新频率
+- **活跃度检查**：确认项目最近7天内有活动
+- **去重检查**：避免选择功能重复或同一开发者的相似项目
 
 请开始整理并生成最终周报。
 ```
 
 ## 📋 使用流程建议
 
-### 最佳实践：
+### 最佳实践（基于实际操作经验）：
 
-1. 分批执行：不要一次性运行所有提示词，建议分3次执行
-2. 时间控制：每阶段给Agent充足时间（20-30分钟）
-3. 结果保存：及时保存每阶段的结果，避免丢失
-4. 人工审核：每阶段结束后进行人工检查和调整
+**执行策略：**
+1. **分批执行**：不要一次性运行所有提示词，建议分3次执行
+2. **时间控制**：每阶段给Agent充足时间（20-30分钟）
+3. **结果保存**：及时保存每阶段的结果，避免丢失
+4. **人工审核**：每阶段结束后进行人工检查和调整
 
-### 适用工具推荐：
+**GitHub Trending特别注意事项：**
+1. **必须全面访问**：不能只查看主页，必须访问所有指定语言的trending页面
+2. **严格筛选**：只选择明确包含AI功能的项目，避免边缘案例
+3. **链接验证**：每个项目链接都必须在生成时验证可访问
+4. **格式统一**：使用[用户名/项目名](URL)格式，不要直接显示完整URL
+5. **项目数量**：确保最终输出10个优质AI项目，如不足可降低筛选标准
 
-- Claude Code：非常适合，有强大的web search能力
-- Perplexity Pro：优秀的搜索和整理能力
-- ChatGPT Plus：配合Browsing功能效果很好
-- Cursor：如果你在编程环境中使用
+### 适用工具推荐（经验验证）：
 
-### 预期效果：
+**推荐工具：**
+- **Cascade/Claude Code**：最佳选择，具备强大的web search和网页访问能力
+- **Perplexity Pro**：优秀的实时搜索和信息整理能力
+- **ChatGPT Plus**：配合Browsing功能效果很好，但需要注意链接限制
+- **Cursor**：在编程环境中使用时方便整理和编辑
 
-- 时间节省：从13小时减少到3-4小时
-- 覆盖全面：AI搜索比人工更全面
-- 质量保证：结构化提示词确保输出质量
-- 可重复性：每周都可以复用相同流程
+**工具使用技巧：**
+1. **对GitHub trending的访问**：确保工具能够同时打开多个页面进行并行搜索
+2. **信息验证**：对重要信息要求工具提供多个来源验证
+3. **链接检查**：要求工具验证每个提供的GitHub链接是否可访问
+4. **格式控制**：明确要求遵守特定的链接和标题格式
 
-### 进阶优化：
+### 预期效果和实际成果：
 
-如果效果好，可以进一步优化：
+**成果验证：**
+- **时间节省**：从13小时减少到3-4小时（已验证）
+- **覆盖全面**：AI搜索能同时访问多个源，比人工更全面
+- **质量保证**：结构化提示词确保输出格式和内容质量
+- **可重复性**：每周都可以复用相同流程，无需重新设计
+
+**关键成功因素：**
+1. **精确的GitHub trending筛选**：确保每个项目都是真实的AI相关项目
+2. **严格的链接格式**：使用统一的Markdown链接格式
+3. **内容质量控制**：每个项目都有清晰的功能描述和价值说明
+4. **信息验证**：所有链接和信息都经过验证确认
+
+### 持续优化建议：
+
+**已验证的优化方向：**
+1. **GitHub筛选算法优化**：更精确的AI项目识别标准
+2. **链接验证自动化**：在生成过程中自动检查链接有效性
+3. **格式标准化**：更严格的输出格式控制
+4. **内容去重化**：避免选择相似功能的项目
+
+**未来可优化项：**
 - 建立专门的信息源监控清单
 - 设计更精细的重要性评分标准
 - 添加趋势分析和预测功能
+- 自动化项目活跃度检查
+- 智能化的项目分类和排序
 
 ## 🔍 高级搜索技巧补充
 
