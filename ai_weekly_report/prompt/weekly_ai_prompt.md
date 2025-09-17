@@ -61,14 +61,16 @@
 ### 模型发布源（按验证优先级排序）：
 
 **主要AI厂商官方源：**
-- https://www.anthropic.com/news (Anthropic官方新闻)
+- https://openai.com/news/rss.xml (OpenAI官方RSS - 产品发布、合作伙伴、安全研究)
 - https://openai.com/news (OpenAI官方新闻) 
 - https://blog.openai.com/ (OpenAI官方博客)
-- https://blog.google/technology/ai/ (Google AI博客)
+- https://www.anthropic.com/news (Anthropic官方新闻 - Claude更新、融资、研究报告)
+- https://deepmind.google/discover/blog/ (DeepMind博客 - 科学研究、模型发布、跨领域应用)
+- https://blog.google/technology/ai/rss/ (Google AI博客RSS - 产品功能、教育项目、实用应用)
 - https://developers.googleblog.com/ (Google开发者博客)
 - https://ai.meta.com/blog/ (Meta AI官方博客)
 - https://mistral.ai/news/ (Mistral AI新闻)
-- https://x.ai/news (xAI官方新闻)
+- https://x.ai/news (xAI官方新闻 - Grok更新和公司动态)
 - https://www.deepseek.com/ (DeepSeek官网)
 - https://qwenlm.github.io/blog/ (Qwen模型官方博客)
 
@@ -79,18 +81,23 @@
 
 **技术平台官方源：**
 - https://huggingface.co/models?sort=trending (HuggingFace热门模型)
+- https://blogs.nvidia.com/feed (NVIDIA官方博客RSS - AI基础设施、汽车AI、性能基准测试)
+- https://www.amazon.science/blog (Amazon Science博客 - 对话AI、机器学习、计算机视觉研究)
 - https://zed.dev/blog/ (Zed编辑器官方博客)
 - https://blog.replit.com/ (Replit官方博客)
 - https://cursor.sh/blog (Cursor编辑器博客)
 
 **官方社交媒体（验证信息用）：**
-- https://x.com/anthropic (Anthropic官方Twitter)
 - https://x.com/openai (OpenAI官方Twitter) 
+- https://x.com/anthropic (Anthropic官方Twitter)
 - https://x.com/GoogleAI (Google AI官方Twitter)
+- https://x.com/GoogleDeepMind (Google DeepMind官方Twitter)
 - https://x.com/MetaAI (Meta AI官方Twitter)
 - https://x.com/xai (xAI官方Twitter)
 - https://x.com/deepseek_ai (DeepSeek官方Twitter)
 - https://x.com/Alibaba_Qwen (Qwen官方Twitter)
+- https://x.com/nvidia (NVIDIA官方Twitter)
+- https://x.com/AmazonScience (Amazon Science官方Twitter)
 - Search: "AI model release [具体日期范围，如September 3-9 2024]" site:techcrunch.com
 - Search: "LLM launch" site:venturebeat.com
 - Search: "新模型发布" site:36kr.com
@@ -188,6 +195,9 @@
 - https://arxiv.org/list/cs.CL/recent (计算语言学论文)
 - https://arxiv.org/list/cs.LG/recent (机器学习论文)
 - https://www.deeplearning.ai/the-batch/ (DeepLearning.AI周报)
+- https://www.amazon.science/blog (Amazon Science技术深度文章 - 对话AI、机器学习、计算机视觉)
+- https://deepmind.google/discover/blog/ (DeepMind深度研究文章 - 科学应用、模型技术)
+- https://blogs.nvidia.com/feed (NVIDIA技术深度解析 - AI基础设施、性能优化)
 - https://www.lddgo.net/en/article/index (技术文章库，包含阿里、腾讯、字节、百度等大厂AI技术深度文章)
 - Search: "AI agent" OR "LLM" site:medium.com [时间范围]
 - Search: "AI coding" OR "AI development" site:substack.com [时间范围]
@@ -595,5 +605,3 @@
    - 交叉验证多个独立来源
    - 检查官方社交媒体账号确认
    - 查看是否有官方辟谣或澄清
-
-```
