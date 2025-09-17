@@ -188,6 +188,7 @@
 - https://arxiv.org/list/cs.CL/recent (计算语言学论文)
 - https://arxiv.org/list/cs.LG/recent (机器学习论文)
 - https://www.deeplearning.ai/the-batch/ (DeepLearning.AI周报)
+- https://www.lddgo.net/en/article/index (技术文章库，包含阿里、腾讯、字节、百度等大厂AI技术深度文章)
 - Search: "AI agent" OR "LLM" site:medium.com [时间范围]
 - Search: "AI coding" OR "AI development" site:substack.com [时间范围]
 - Search: "AI编程" OR "代码智能" site:juejin.cn [时间范围]
